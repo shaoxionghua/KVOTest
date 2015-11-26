@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height//获取屏幕高度，兼容性测试
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width//获取屏幕宽度，兼容性测试
+
+#define ScreenHeightAuto [[UIScreen mainScreen] bounds].size.height /568 //获取屏幕高度，兼容性测试
+#define ScreenWidthAuto [[UIScreen mainScreen] bounds].size.width /320 //获取屏幕宽度，兼容性测试
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

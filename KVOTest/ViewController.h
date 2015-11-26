@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@protocol CellDelegate
 
+-(void)delegateMethod;
 
 @end
+
+
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,CellDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *Mytabview;
+
+@end
+
+
+
 
