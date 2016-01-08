@@ -12,7 +12,8 @@
 #import "MButton.h"
 #import "HealthViewController.h"
 #import "MapViewController.h"
-
+#import "CoreDataViewController.h"
+#import "OCJSViewController.h"
 @interface ViewController ()
 {
     NSMutableArray *listArr;
@@ -25,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"控件";
-    listArr = [[NSMutableArray alloc]initWithObjects:@"KVO",@"BaseButton",@"BaseLabel",@"NetWorking",@"healthDemo",@"MapDemo",nil];
+    listArr = [[NSMutableArray alloc]initWithObjects:@"KVO",@"BaseButton",@"BaseLabel",@"NetWorking",@"healthDemo",@"MapDemo",@"CoreData",@"OC和JS相互调用",nil];
 
 //    NSString *mystr = @"testooooooooooooooooo名字";
 //    
@@ -102,6 +103,20 @@
         [self.navigationController pushViewController:h animated:YES];
         
     }
+    if (indexPath.row == 6) {
+        
+        CoreDataViewController *h = [[CoreDataViewController alloc]init];
+        [self.navigationController pushViewController:h animated:YES];
+        
+    }
+    
+    if (indexPath.row == 7) {
+        
+        OCJSViewController *h = [[OCJSViewController alloc]init];
+        [self.navigationController pushViewController:h animated:YES];
+        
+    }
+    
 }
 
 

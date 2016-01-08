@@ -21,6 +21,10 @@
 		7E2A0F111BF42ADD00DEE0C5 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A0F0F1BF42ADD00DEE0C5 /* KVOViewController.m */; };
 		7E2A0F121BF42ADD00DEE0C5 /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A0F101BF42ADD00DEE0C5 /* KVOViewController.xib */; };
 		7E2A0F151BF42B0900DEE0C5 /* KVOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A0F141BF42B0900DEE0C5 /* KVOObject.m */; };
+		7E326F721C33B24B00C57234 /* PersonModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E326F701C33B24B00C57234 /* PersonModel.xcdatamodeld */; };
+		7E326F741C33B37500C57234 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E326F731C33B37500C57234 /* CoreData.framework */; };
+		7E326F781C33B43200C57234 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E326F761C33B43200C57234 /* CoreDataViewController.m */; };
+		7E326F791C33B43200C57234 /* CoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E326F771C33B43200C57234 /* CoreDataViewController.xib */; };
 		7E6EA7DA1BF58E0A00E4A47E /* MButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EA7D91BF58E0A00E4A47E /* MButton.m */; };
 		7E6EA7DE1BF5C12800E4A47E /* MBouttonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6EA7DC1BF5C12800E4A47E /* MBouttonViewController.m */; };
 		7E6EA7DF1BF5C12800E4A47E /* MBouttonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6EA7DD1BF5C12800E4A47E /* MBouttonViewController.xib */; };
@@ -47,6 +51,10 @@
 		7ED26DE41BFEB6EF00F33D67 /* HealthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED26DE21BFEB6EF00F33D67 /* HealthTableViewCell.m */; };
 		7ED26DE51BFEB6EF00F33D67 /* HealthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED26DE31BFEB6EF00F33D67 /* HealthTableViewCell.xib */; };
 		7ED26DE71BFEBCB900F33D67 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7ED26DE61BFEBCB900F33D67 /* image5.jpg */; };
+		7EFB8AF01C3E4DD7005FFE92 /* OCJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB8AEE1C3E4DD7005FFE92 /* OCJSViewController.m */; };
+		7EFB8AF11C3E4DD7005FFE92 /* OCJSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EFB8AEF1C3E4DD7005FFE92 /* OCJSViewController.xib */; };
+		7EFB8AF31C3E4E2C005FFE92 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFB8AF21C3E4E2C005FFE92 /* JavaScriptCore.framework */; };
+		7EFB8AF61C3E50AB005FFE92 /* OCJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB8AF51C3E50AB005FFE92 /* OCJSObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +99,11 @@
 		7E2A0F101BF42ADD00DEE0C5 /* KVOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
 		7E2A0F131BF42B0900DEE0C5 /* KVOObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOObject.h; sourceTree = "<group>"; };
 		7E2A0F141BF42B0900DEE0C5 /* KVOObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOObject.m; sourceTree = "<group>"; };
+		7E326F711C33B24B00C57234 /* PersonModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonModel.xcdatamodel; sourceTree = "<group>"; };
+		7E326F731C33B37500C57234 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7E326F751C33B43200C57234 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		7E326F761C33B43200C57234 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		7E326F771C33B43200C57234 /* CoreDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreDataViewController.xib; sourceTree = "<group>"; };
 		7E6EA7D81BF58E0A00E4A47E /* MButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MButton.h; sourceTree = "<group>"; };
 		7E6EA7D91BF58E0A00E4A47E /* MButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MButton.m; sourceTree = "<group>"; };
 		7E6EA7DB1BF5C12800E4A47E /* MBouttonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBouttonViewController.h; sourceTree = "<group>"; };
@@ -125,6 +138,12 @@
 		7ED26DE21BFEB6EF00F33D67 /* HealthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthTableViewCell.m; sourceTree = "<group>"; };
 		7ED26DE31BFEB6EF00F33D67 /* HealthTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HealthTableViewCell.xib; sourceTree = "<group>"; };
 		7ED26DE61BFEBCB900F33D67 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		7EFB8AED1C3E4DD7005FFE92 /* OCJSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCJSViewController.h; sourceTree = "<group>"; };
+		7EFB8AEE1C3E4DD7005FFE92 /* OCJSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCJSViewController.m; sourceTree = "<group>"; };
+		7EFB8AEF1C3E4DD7005FFE92 /* OCJSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OCJSViewController.xib; sourceTree = "<group>"; };
+		7EFB8AF21C3E4E2C005FFE92 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7EFB8AF41C3E50AB005FFE92 /* OCJSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCJSObject.h; sourceTree = "<group>"; };
+		7EFB8AF51C3E50AB005FFE92 /* OCJSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCJSObject.m; sourceTree = "<group>"; };
 		C0F842AAA627A9298613279C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D51EFD4A5836A4F03EABB8A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,6 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFB8AF31C3E4E2C005FFE92 /* JavaScriptCore.framework in Frameworks */,
+				7E326F741C33B37500C57234 /* CoreData.framework in Frameworks */,
 				7E8BAE3F1C0404BF000CE8E8 /* Security.framework in Frameworks */,
 				7E8BAE3D1C0404B8000CE8E8 /* libstdc++.6.0.9.tbd in Frameworks */,
 				7E8BAE371C04036E000CE8E8 /* libz.tbd in Frameworks */,
@@ -165,6 +186,8 @@
 		7D79DDC21F80B3A74B99285C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7EFB8AF21C3E4E2C005FFE92 /* JavaScriptCore.framework */,
+				7E326F731C33B37500C57234 /* CoreData.framework */,
 				7E8BAE3E1C0404BF000CE8E8 /* Security.framework */,
 				7E8BAE3C1C0404B8000CE8E8 /* libstdc++.6.0.9.tbd */,
 				7E8BAE361C04036E000CE8E8 /* libz.tbd */,
@@ -207,6 +230,8 @@
 				7E2A0ED01BF4270C00DEE0C5 /* ViewController.h */,
 				7E2A0ED11BF4270C00DEE0C5 /* ViewController.m */,
 				7E2A0F001BF4273100DEE0C5 /* ViewController.xib */,
+				7EFB8AEC1C3E4DBF005FFE92 /* OCJS */,
+				7E326F6F1C33B23800C57234 /* coreData */,
 				7E8BAE091C02BA4A000CE8E8 /* Map */,
 				7ED26DDB1BFEB6D400F33D67 /* health */,
 				7E2A0F0A1BF427D100DEE0C5 /* BaseButton */,
@@ -288,6 +313,17 @@
 			path = NetWorking;
 			sourceTree = "<group>";
 		};
+		7E326F6F1C33B23800C57234 /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				7E326F701C33B24B00C57234 /* PersonModel.xcdatamodeld */,
+				7E326F751C33B43200C57234 /* CoreDataViewController.h */,
+				7E326F761C33B43200C57234 /* CoreDataViewController.m */,
+				7E326F771C33B43200C57234 /* CoreDataViewController.xib */,
+			);
+			path = coreData;
+			sourceTree = "<group>";
+		};
 		7E8BAE091C02BA4A000CE8E8 /* Map */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +357,18 @@
 				7E8BAE051C02B1BC000CE8E8 /* DataManager.m */,
 			);
 			path = health;
+			sourceTree = "<group>";
+		};
+		7EFB8AEC1C3E4DBF005FFE92 /* OCJS */ = {
+			isa = PBXGroup;
+			children = (
+				7EFB8AED1C3E4DD7005FFE92 /* OCJSViewController.h */,
+				7EFB8AEE1C3E4DD7005FFE92 /* OCJSViewController.m */,
+				7EFB8AEF1C3E4DD7005FFE92 /* OCJSViewController.xib */,
+				7EFB8AF41C3E50AB005FFE92 /* OCJSObject.h */,
+				7EFB8AF51C3E50AB005FFE92 /* OCJSObject.m */,
+			);
+			path = OCJS;
 			sourceTree = "<group>";
 		};
 		C39A2377A2A4346FDD306656 /* Pods */ = {
@@ -445,9 +493,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ED26DE51BFEB6EF00F33D67 /* HealthTableViewCell.xib in Resources */,
+				7EFB8AF11C3E4DD7005FFE92 /* OCJSViewController.xib in Resources */,
 				7ED26DE71BFEBCB900F33D67 /* image5.jpg in Resources */,
 				7E8BAE3B1C040480000CE8E8 /* AMap.bundle in Resources */,
 				7E8BAE191C02E043000CE8E8 /* GuGong.tracking in Resources */,
+				7E326F791C33B43200C57234 /* CoreDataViewController.xib in Resources */,
 				7E8BAE151C02C28D000CE8E8 /* ball.png in Resources */,
 				7E2A0F121BF42ADD00DEE0C5 /* KVOViewController.xib in Resources */,
 				7E2A0EDD1BF4270C00DEE0C5 /* LaunchScreen.storyboard in Resources */,
@@ -533,17 +583,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2A0ED81BF4270C00DEE0C5 /* KVOTest.xcdatamodeld in Sources */,
+				7EFB8AF61C3E50AB005FFE92 /* OCJSObject.m in Sources */,
 				7ED26DE41BFEB6EF00F33D67 /* HealthTableViewCell.m in Sources */,
 				7E6EA7DA1BF58E0A00E4A47E /* MButton.m in Sources */,
 				7E8BAE0D1C02BA5B000CE8E8 /* MapViewController.m in Sources */,
 				7E6EA7DE1BF5C12800E4A47E /* MBouttonViewController.m in Sources */,
+				7E326F781C33B43200C57234 /* CoreDataViewController.m in Sources */,
 				7E2A0F151BF42B0900DEE0C5 /* KVOObject.m in Sources */,
+				7EFB8AF01C3E4DD7005FFE92 /* OCJSViewController.m in Sources */,
 				7E2A0ED21BF4270C00DEE0C5 /* ViewController.m in Sources */,
 				7ED26DDF1BFEB6D400F33D67 /* HealthViewController.m in Sources */,
 				7E8BAE111C02BB76000CE8E8 /* Tracking.m in Sources */,
 				7E8BAE1E1C02F776000CE8E8 /* WGS84TOGCJ02.m in Sources */,
 				7E2A0ECF1BF4270C00DEE0C5 /* AppDelegate.m in Sources */,
 				7E2A0ECC1BF4270C00DEE0C5 /* main.m in Sources */,
+				7E326F721C33B24B00C57234 /* PersonModel.xcdatamodeld in Sources */,
 				7E8BAE061C02B1BC000CE8E8 /* DataManager.m in Sources */,
 				7E2A0F111BF42ADD00DEE0C5 /* KVOViewController.m in Sources */,
 			);
@@ -693,7 +747,7 @@
 				);
 				INFOPLIST_FILE = KVOTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.1kf.1kf.KVO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1kf.1kf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -711,7 +765,7 @@
 				);
 				INFOPLIST_FILE = KVOTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.1kf.1kf.KVO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1kf.1kf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -813,6 +867,16 @@
 			);
 			currentVersion = 7E2A0ED71BF4270C00DEE0C5 /* KVOTest.xcdatamodel */;
 			path = KVOTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		7E326F701C33B24B00C57234 /* PersonModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E326F711C33B24B00C57234 /* PersonModel.xcdatamodel */,
+			);
+			currentVersion = 7E326F711C33B24B00C57234 /* PersonModel.xcdatamodel */;
+			path = PersonModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
